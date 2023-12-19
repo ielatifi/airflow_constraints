@@ -1,0 +1,7 @@
+# empty constraints file for requirements.txt of airflow mwaa versions >= 2.7.2
+# requirements.txt will contain the line below :
+# --constraint "https://raw.githubusercontent.com/ielatifi/airflow_constraints/main/empty_constraints.txt"
+# needed because : "Beginning with Apache Airflow v2.7.2, your requirements file must include a --constraint statement. 
+# If you do not provide a constraint, Amazon MWAA will specify one for you to ensure the packages listed in your requirements are compatible with the version of Apache Airflow you are using."
+# c.f. https://docs.aws.amazon.com/mwaa/latest/userguide/airflow-versions.html
+# The default contraints.txt is not compatible with our versions in requirements.txt, that is way we use an empty contraints file for now.
