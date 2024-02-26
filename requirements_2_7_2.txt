@@ -1,5 +1,5 @@
 #--constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.7.2/constraints-3.11.txt"
---constraint constraints_2_7_2.txt
+--constraint "https://raw.githubusercontent.com/ielatifi/airflow_constraints/main/constraints_2_7_2.txt"
 
 apache-airflow-providers-databricks>=5.0.1
 apache-airflow-providers-amazon>=8.7.1
